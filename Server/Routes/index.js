@@ -7,24 +7,24 @@ const express_1 = __importDefault(require("express"));
 const router = express_1.default.Router();
 exports.default = router;
 router.get('/', function (req, res, next) {
-    res.render('index', { title: 'Home' });
+    res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/home', function (req, res, next) {
-    res.render('index', { title: 'Home' });
+    res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/about', function (req, res, next) {
-    res.render('index', { title: 'About' });
+    res.render('index', { title: 'About Us', page: 'about' });
 });
 router.get('/projects', function (req, res, next) {
-    res.render('index', { title: 'Projects' });
+    res.render('index', { title: 'Our Projects', page: 'projects' });
 });
 router.get('/services', function (req, res, next) {
-    res.render('index', { title: 'Services' });
+    res.render('index', { title: 'Our Services', page: 'services' });
 });
 router.get('/contact', function (req, res, next) {
-    res.render('index', { title: 'Contact' });
+    res.render('index', { title: 'Contact Us', page: 'contacts' });
 });
 router.get('/', function (req, res, next) {
-    res.render('index', { title: 'Home' });
+    res.render('index', { title: 'Home', page: 'home' });
 });
 //# sourceMappingURL=index.js.map
