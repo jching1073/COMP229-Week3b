@@ -7,6 +7,24 @@ const express_1 = __importDefault(require("express"));
 const router = express_1.default.Router();
 exports.default = router;
 router.get('/', function (req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('index', { title: 'Home' });
+});
+router.get('/home', function (req, res, next) {
+    res.render('index', { title: 'Home' });
+});
+router.get('/about', function (req, res, next) {
+    res.render('index', { title: 'About' });
+});
+router.get('/projects', function (req, res, next) {
+    res.render('index', { title: 'Projects' });
+});
+router.get('/services', function (req, res, next) {
+    res.render('index', { title: 'Services' });
+});
+router.get('/contact', function (req, res, next) {
+    res.render('index', { title: 'Contact' });
+});
+router.get('/', function (req, res, next) {
+    res.render('index', { title: 'Home' });
 });
 //# sourceMappingURL=index.js.map

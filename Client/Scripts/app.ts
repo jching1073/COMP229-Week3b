@@ -8,6 +8,7 @@
     {
         console.log("app Started");
 
-        window.addEventListener('load', Start);
+        
     }
+    window.addEventListener('load', Start);
 })();
