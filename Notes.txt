@@ -1,0 +1,10 @@
+1) Make rename file to index.ts from index.js
+2) type tsc in powershell   This will make an index.js file
+3) press ctrl + shift + b use watch to monitor script
+4) change import http from 'http'; from const http = request('http)';
+
+1) in powershell enter express -e ‘foldername’ one folder up
+2) in powershell enter yarn install (in project folder)
+3) in powershell enter yarn upgrade //make everything the version in express generator
+4) delete index.js, index.js.map, index.html
+5) move www to main folder from bin - delete bin after
